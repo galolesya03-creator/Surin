@@ -1,0 +1,56 @@
+@media (max-width:850px)
+{
+.top-nav{
+    display: block !important;
+}
+.navigation{
+    display: none;
+}
+.navigation_block{
+    margin: 0.5vw;
+}
+.block_img{
+    margin: auto 5vw;
+}
+.header_img{
+    border-top: 10px solid #362E23;
+    border-bottom: 10px solid #362E23;
+}
+.header_text{
+    font-size: calc(1.5rem + 3vw);
+    margin: auto 10%;
+}
+.chess_right{
+    width: calc(80% + 3vw);
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.chess_left{
+    width: calc(80% + 3vw);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.side_img{
+    width: calc(250px + 1vw);
+    height: calc(375px + 1vw);
+    padding-top: 5vh;
+}
+.main_text{
+    font-size: calc(1.2rem + 1vw);
+}
+.navigation_footer{
+    padding: 5vw;
+}
+.navigation_footer_item{
+    font-size: calc(1.6rem + 1vw);
+}
+.icons{
+    flex-direction: column;
+}
+.icon_item{
+    padding: 1vh;
+    font-size: calc(0.7rem + 1vw);
+}
+}
